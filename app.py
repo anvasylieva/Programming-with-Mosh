@@ -418,7 +418,7 @@
 # from ecommerce.shipping import calc_shipping
 # calc_shipping()
 # -----------------------------------------
-import random
+# import random
 
 # for i in range(3):
 #     print(random.random())
@@ -434,14 +434,31 @@ import random
 # -----------------------------------------
 
 
-class Dice:
-    def roll(self):
-        x = random.randint(1, 6)
-        y = random.randint(1, 6)
-        return x, y
-
-
-dice = Dice()
-print(dice.roll())
+# class Dice:
+#     def roll(self):
+#         x = random.randint(1, 6)
+#         y = random.randint(1, 6)
+#         return x, y
+#
+#
+# dice = Dice()
+# print(dice.roll())
 # -----------------------------------------
 
+from pathlib import Path
+
+# path = Path("ecommerce")
+# print(path.exists())
+
+# path = Path("emails")
+# path.mkdir()
+# path.rmdir()
+
+path = Path()
+
+# for file in path.glob('*.py'):
+#     print(file)
+#
+# for file in path.glob('*'):
+#     print(file)
+# -----------------------------------------
